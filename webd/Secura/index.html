@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    
+    <nav id="navbar">
+    <div id="logo">
+        <img src="Secura.png" alt="TCR logo">
+    </div>   
+    
+    <ul>
+        <li class="item"><a href="/index.html">Home</a></li>
+        <li class="item"><a href="https://docs.google.com/spreadsheets/d/1lnfgN3Kv9JOLlSODHZd54xc--OIN86yCriczXB6Dnsw/edit#gid=0">Data Base</a></li>
+        
+        <li class="item"><a href="/project1.html">Registration</a></li>
+    </ul>
+    </nav>
+    <section id="home">
+        <h1 id="h-primary">WELCOME TO SECURA</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla sapiente voluptas est reprehenderit quaerat pariatur consequuntur consequatur similique accusamus error provident dolore esse perferendis quibusdam, adipisci neque. Explicabo animi ex enim suscipit alias, nemo adipisci consequatur. Facilis aut maxime, accusamus fugiat autem eligendi. Dolorem quibusdam ea a dolore natus nisi.</p>
+        <button class="btn"><a href="/project1.html">Register Now</a></button>
+    </section>
+    
+    <img id="bg" src="{{ url_for('video_feed') }}">
+    <section class="Courses-container">
+        <h1 class="h-primary center">Security Offered</h1>
+        <div id="courses">
+            <div class="box">
+            <img src="/AI.jpg" alt="">
+            <h2 class="h-secondary center">Anonymous Detection</h2>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum et adipisci corporis totam commodi maiores asperiores ipsam, delectus sapiente nam tenetur rem placeat voluptatibus obcaecati deleniti, laudantium ullam, repellat consectetur.</p>
+            </div>
+            <div class="box">
+                <img src="/ML.jpg" alt="">
+                <h2 class="h-secondary center">Face Regognition </h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum et adipisci corporis totam commodi maiores asperiores ipsam, delectus sapiente nam tenetur rem placeat voluptatibus obcaecati deleniti, laudantium ullam, repellat consectetur.</p>
+                </div>
+                <div class="box">
+                    <img src="/FD.jpg" alt="">
+                    <h2 class="h-secondary center">Tracking Person</h2>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum et adipisci corporis totam commodi maiores asperiores ipsam, delectus sapiente nam tenetur rem placeat voluptatibus obcaecati deleniti, laudantium ullam, repellat consectetur.</p>
+                    </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="Secura.png" alt="Footer Logo" height="30px">
+        <span><br>Copyright &copy; 2023 </span>
+    </footer>
+</body>
+</html>

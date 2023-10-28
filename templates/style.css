@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(bg3.jpeg);
+    color: white;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
